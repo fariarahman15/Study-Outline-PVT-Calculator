@@ -1,0 +1,29 @@
+/* custom CSS */
+
+.menu{
+    background-color: #ffffff;
+}
+
+.menu-button{
+    background-color: #0f424e;
+    color: #ffffff;
+}
+
+.nav-section{
+    background-color: #0f424e;
+    color: #ffffff;
+}
+
+
+.form-section{
+    background-color: #e0fff4;
+}
+
+.footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f424e;
+    color: #ffffff;
+}
