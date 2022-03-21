@@ -14,7 +14,7 @@ body{
     color: #fb923c;
 }
 
-.menu{
+.menu-section{
     background-color: #ffffff;
 }
 
@@ -45,4 +45,19 @@ body{
     align-items: center;
     background-color: #0f424e;
     color: #ffffff;
+}
+
+
+/* form display */
+
+#register-form{
+    display: none;
+}
+
+#signIn-form{
+    display: none;
+}
+
+#signUp-form{
+    display: none;
 }

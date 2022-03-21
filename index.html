@@ -24,31 +24,29 @@
 
 
 <body>
-    <!-- head  -->
-    <head>
-
-    </head>
-
     <!-- main  -->
     <main>
         <div class="container-fluid h-100">
             <div class="row">
-                <!-- left row  -->
-              <div class="menu col-sm-12 col-lg-4 pe-lg-0 pe-sm-2">
+                <!-- left row - menu section -->
+              <div class="menu-section col-sm-12 col-lg-4 pe-lg-0 pe-sm-2">
                     <div class="d-grid gap-2 mb-2">
-                        <h4><i class="fa-solid fa-bars"></i>  Study Outline</h4>
+                        <!-- heading & title  -->
+                        <h4 class="mt-2"><i class="fa-solid fa-bars"></i>  Study Outline</h4>
                         <h2><span>P</span><span id="letter-v">V</span><span id="letter-t">T</span> Calculator</h2>
                         
-                        <button type="button" class="menu-button p-3 border d-flex justify-content-between align-items-center">Registration Form <i class="fa-solid fa-circle-plus"></i></button>
+                        <!-- menu options  -->
+                        <button type="button" class="menu-button p-3 border d-flex justify-content-between align-items-center" id="registration-form-title">Registration Form <i class="fa-solid fa-circle-plus"></i></button>
 
-                        <button type="button" class="menu-button p-3 border d-flex justify-content-between align-items-center">SignIn Form <i class="fa-solid fa-circle-plus"></i></button>
+                        <button type="button" class="menu-button p-3 border d-flex justify-content-between align-items-center" id="signIn-form-title">SignIn Form <i class="fa-solid fa-circle-plus"></i></button>
 
-                        <button type="button" class="menu-button p-3 border d-flex justify-content-between align-items-center">SignUp Form <i class="fa-solid fa-circle-plus"></i></button>
+                        <button type="button" class="menu-button p-3 border d-flex justify-content-between align-items-center" id="signUp-form-title">SignUp Form <i class="fa-solid fa-circle-plus"></i></button>
                   </div>
                 
                 </div>
 
-              <!-- right row  -->
+              <!-- right row - form section  -->
+            
               <!-- nav section  -->
               <div class=" form-section col-sm-12 col-lg-8 px-0">
                 <nav class="navbar nav-section">
@@ -83,8 +81,8 @@
                 <!-- form  -->
                 <div class="form container w-75">
                     <!-- register form  -->
-                    <h1 class="mx-3 my-5 d-flex justify-content-center">Registration Form</h1>
                     <form class="p-3 mx-2 my-5 border rounded-3 shadow-sm bg-body" id="register-form">
+                        <h1 class="mx-auto my-3 d-flex justify-content-center">Registration Form</h1>
                         <div class="mb-3">
                             <label for="userNameTextInput" class="form-label">User Name</label>
                             <input type="text" id="userNameTextInput" class="form-control" placeholder="Enter Your Name">
@@ -104,8 +102,8 @@
                     </form>
         
                     <!-- signIn form  -->
-                    <h1 class="mx-3 my-5 d-flex justify-content-center">Sign In Form</h1>
                     <form class="p-3 mx-2 my-5 border rounded-3 shadow-sm bg-body"  id="signIn-form">
+                        <h1 class="mx-auto my-3 d-flex justify-content-center">Sign In Form</h1>
                         <div class="mb-3">
                             <label for="userNameTextInput" class="form-label">User Name</label>
                             <input type="text" id="userNameTextInput" class="form-control" placeholder="Enter Your Name">
@@ -125,8 +123,8 @@
                     </form>
                 
                     <!-- signUp form  -->
-                    <h1 class="mx-3 my-5 d-flex justify-content-center">Sign Up Form</h1>
                     <form class="p-3 mx-2 my-5 border rounded-3 shadow-sm bg-body" id="signUp-form">
+                        <h1 class="mx-auto my-3 d-flex justify-content-center">Sign Up Form</h1>
                         <div class="mb-3">
                             <label for="userNameTextInput" class="form-label">User Name</label>
                             <input type="text" id="userNameTextInput" class="form-control" placeholder="Enter Your Name">
@@ -146,23 +144,19 @@
                     </form>
                 </div>
                 </div>
-
-            
-                  
-                
             </div>
         </div>
-
-
     </main>
     
     <!-- footer  -->
     <footer>
         <h4 class="footer mx-auto mb-0">© All Rights Reserved. </h4>
-
     </footer>
 
     <!-- bootstrap JS CDN  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- JS script  -->
+    <script src="JS/form.js"></script>
 </body>
 </html>
