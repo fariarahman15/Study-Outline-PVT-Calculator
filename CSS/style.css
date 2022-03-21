@@ -4,7 +4,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #0f424e;
+    
 }
+
 
 #letter-v{
     color: #16a34a;
@@ -16,6 +18,7 @@ body{
 
 .menu-section{
     background-color: #ffffff;
+    
 }
 
 .menu-button{
@@ -31,6 +34,7 @@ body{
 
 .form-section{
     background-color: #e0fff4;
+    height: 95vh;
 }
 
 .submit-button{
@@ -39,7 +43,7 @@ body{
 }
 
 .footer{
-    height: 50px;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
