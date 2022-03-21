@@ -1,5 +1,19 @@
 /* custom CSS */
 
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #0f424e;
+}
+
+#letter-v{
+    color: #16a34a;
+}
+
+#letter-t{
+    color: #fb923c;
+}
+
 .menu{
     background-color: #ffffff;
 }
@@ -17,6 +31,11 @@
 
 .form-section{
     background-color: #e0fff4;
+}
+
+.submit-button{
+    background-color: #0f424e;
+    color: #ffffff;
 }
 
 .footer{
